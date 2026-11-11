@@ -11,16 +11,13 @@ body  {
     background-color: #fde4ec;
     color: #333333;
     font-family: "Poppins", sans-serif;
-
-}
-
-body {
     text-align: center;
+
 }
 
-h2 {
-    text-align: center;
-}
+
+
+
 ul {
     width: fit-content;
     margin: 0 auto;
@@ -47,9 +44,8 @@ h1 {
     font-family: "Playfair Display", serif;
     color: white;
     background-color:#6a1b9a ;
-    margin: 30px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 30px 20px;
+    
     word-spacing: 10px;
 }
 
