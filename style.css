@@ -1,0 +1,62 @@
+/* 1. Style Your Profile Page
+Client says: "My profile page looks plain. Make it look professional."
+
+Light background color for the whole page
+All content centered
+Photo as a circle with a colored border
+Name in a nice color and a different font
+Skills list without bullets, each skill in a small white box */
+
+body  { 
+    background-color: #fde4ec;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+ul {
+    width: fit-content;
+    margin: 0 auto;
+    list-style :none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+img {
+    border-radius: 10%;           /* i like square */
+
+    height: 300px;
+    width: 300px;
+    border : 4px solid purple;
+    
+}
+
+h1 {
+
+    font-family: "Playfair Display", serif;
+    color: white;
+    background-color:#6a1b9a ;
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+}
+
+li {
+  background-color: white;
+  padding: 8px 30px;
+  border-radius: 8px;
+  margin: 8px 0;
+
+}
